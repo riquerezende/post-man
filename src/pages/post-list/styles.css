@@ -1,0 +1,36 @@
+.container-post-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.post {
+    margin: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    width: 16rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.post-text {
+    white-space: unset;
+    height: 7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #000000;
+}
+
+#delete-button {
+    background-color: crimson;
+}
+
+#edit-button {
+    background-color: yellowgreen;
+    margin-left: 0.5rem;
+}
+
+#view-button {
+    background-color: #9B42E3;
+    margin-left: 0.5rem;
+}
